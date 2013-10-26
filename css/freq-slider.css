@@ -1,0 +1,73 @@
+.axis {
+    font: 10px sans-serif;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+
+.axis .halo {
+    fill: none;
+    stroke: #ddf;
+    stroke-width: 17px;
+    stroke-linecap: round;
+}
+
+.axis .domain {
+    fill: #000;
+    stroke: #000;
+    stroke-opacity: .5;
+    stroke-width: 20px;
+    stroke-linecap: round;
+}
+
+.slider .handle {
+    fill: #fff;
+    stroke: #000;
+    stroke-opacity: .5;
+    stroke-width: 2px;
+    pointer-events: none;
+}
+
+#title {
+    width: 760px;
+
+    font: 4em sans-serif;
+    font-weight: bold;
+	text-align: center;
+
+	margin: 25px;
+}
+
+#freq {
+    float: left;
+    width: 370px;
+
+    font: 2.5em sans-serif;
+	text-align: center;
+
+	padding: 10px;
+	margin: 25px;
+}
+
+#play {
+    float: left;
+    width: 200px;
+
+    font: 2.5em sans-serif;
+	text-align: center;
+
+	background: #bfb;
+	border: 2px solid #999;
+	padding: 10px;
+	margin: 25px;
+
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+
+    cursor: pointer;
+}
+
+#slider {
+    clear: both;
+}
